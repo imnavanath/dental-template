@@ -7,16 +7,11 @@
 }
 
 a {
-    color: #3a3a3a;
-    transition: 0.5s;
+    cursor: pointer;
 }
 
-a:hover,
-a:active,
-a:focus {
-    color: #207fdc;
-    outline: none;
-    text-decoration: none;
+.container .white-text {
+    color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -165,4 +160,63 @@ a:focus {
 .intro-info .banner-button:focus {
     color: #ffffff;
     background-color: #2bb721;
+}
+
+/*--------------------------------------------------------------
+# Home Banner Section Breaker Columns
+--------------------------------------------------------------*/
+section.banner-breaker-cols {
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.17);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.banner-breaker-cols .container {
+    margin-top: -60px;
+    background-color: #207fdc;
+}
+
+.banner-breaker-cols .row {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+a.white-text:hover,
+a.white-text:focus,
+a.white-text:active  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-breaker-cols i.fa {
+    width: 1em;
+    height: 1em;
+    font-size: 34px;
+}
+
+.banner-breaker-cols h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-breaker-cols a.white-text i {
+    margin-bottom: 20px;
+}
+
+.banner-breaker-cols p.white-text {
+    font-size: 15px;
+    color: #edf0f3;
+}
+
+.banner-breaker-cols .banner-wrapper {
+    border-style: solid;
+    border-color: rgba(255,255,255,0.52);
+}
+
+.banner-breaker-cols .banner-wrapper {
+    border-width: 0px 1px 0px 0px;
+}
+
+.banner-breaker-cols .banner-wrapper.last-col {
+    border-width: 0;
 }
