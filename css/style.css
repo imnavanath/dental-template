@@ -144,8 +144,8 @@ a {
     margin-top: 20px;
 }
 
-.intro-info .banner-button {
-    margin-top: 40px;
+.banner-button {
+    margin-top: 30px;
     text-transform: capitalize;
     color: #ffffff;
     background-color: #46c93d;
@@ -156,8 +156,8 @@ a {
     border: none;
 }
 
-.intro-info .banner-button:hover,
-.intro-info .banner-button:focus {
+.banner-button:hover,
+.banner-button:focus {
     color: #ffffff;
     background-color: #2bb721;
 }
@@ -302,4 +302,27 @@ section h2 {
 .services-wrapper p {
     color: #666666;
     font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+
+.offer-cta {
+    padding: 40px 0;
+    background-color: #207fdc;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.offer-cta .cta-heading {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.offer-cta .cta-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.6em;
 }
