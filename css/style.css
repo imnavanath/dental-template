@@ -220,3 +220,86 @@ a.white-text:active  {
 .banner-breaker-cols .banner-wrapper.last-col {
     border-width: 0;
 }
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
+.about-section {
+    text-align: left;
+    border-bottom: solid 1px #dae7e6;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 60px 0px;
+    background-color: #fff;
+}
+
+section .content-top-space {
+    height: 100px;
+}
+
+.about-section .about-description {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    line-height: 1.6em;
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 2.3333333333333rem;
+    margin-bottom: 20px;
+}
+
+.about-section .about-title {
+    color: #54595f;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    margin-bottom: 1.6em;
+    color: #666666;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.about-section .dr-name {
+    font-size: 20px;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+.about-section .dr-prof {
+    color: #207fdc;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+
+.service-section {
+    text-align: center;
+    background-color: #f3f9f9;
+    padding-bottom: 100px;
+}
+
+.service-section .service-title {
+    color: #54595f;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.services-wrapper h5 {
+    line-height: 1.5em;
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.services-wrapper p {
+    color: #666666;
+    font-size: 15px;
+}
