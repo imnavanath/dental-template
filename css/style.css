@@ -236,7 +236,7 @@ a.white-text:active  {
 }
 
 section .content-top-space {
-    height: 100px;
+    height: 95px;
 }
 
 .about-section .about-description {
@@ -282,10 +282,13 @@ section h2 {
 .service-section {
     text-align: center;
     background-color: #f3f9f9;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
-.service-section .service-title {
+.service-section .service-title,
+.work-sections .works-sub-title,
+.reviews-section .review-sub-title,
+.contact-section .contact-sub-title {
     color: #54595f;
     font-size: 15px;
     font-weight: 700;
@@ -305,7 +308,7 @@ section h2 {
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Offer CTA Section
 --------------------------------------------------------------*/
 
 .offer-cta {
@@ -325,4 +328,221 @@ section h2 {
     font-size: 40px;
     font-weight: 600;
     line-height: 1.6em;
+}
+
+/*--------------------------------------------------------------
+# Works Section
+--------------------------------------------------------------*/
+
+.work-sections {
+    background-color: #f3f9f9;
+    padding: 100px 0;
+    border-bottom: 1px solid #dae7e6;
+}
+
+.work-sections h2 {
+    font-size: 2.1rem;
+}
+
+.work-sections img {
+    width: 250px;
+    height: 250px;
+}
+
+.work-sections .image-wrapper {
+    padding: unset;
+    width: unset;
+    float: left;
+    margin: 10px;
+}
+
+.work-sections ul {
+    margin: 40px 0;
+    list-style-type: square;
+}
+
+.work-sections ul.workings-first-list {
+    float: left;
+    margin-right: 60px;
+}
+
+.work-sections ul li span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #666666;
+    padding-left: 10px;
+}
+
+.work-sections .insurance-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #3a3a3a;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/*--------------------------------------------------------------
+# Reviews Section
+--------------------------------------------------------------*/
+
+.reviews-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.reviews-section .review-sub-title {
+    color: #54595f;
+}
+
+.reviews-section h5 {
+    font-size: 20px;
+    color: #3a3a3a;
+    font-weight: 600;
+    line-height: 1;
+    margin: 30px;
+}
+
+.reviews-section p {
+    color: #666666;
+    margin: 25px 0px 0px 0px;
+    padding: 0px 45px 0px 45px;
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+
+.contact-section {
+    text-align: center;
+    padding: 80px 0 100px;
+    background-color: #f3f9f9;
+}
+
+.contact-section .contacts-wrapper {
+    margin: 60px 0;
+}
+
+.contact-section .form #sendmessage,
+.contact-section .form #errormessage {
+    color: #007bff;
+    border: 1px solid #007bff;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contact-section .form {
+    background-color: #fff;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 2px rgba(157,169,169,0.18);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 80px 40px 80px;
+}
+
+.contact-section .form h3 {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.6666666666667rem;
+    line-height: 1.1em;
+    margin-bottom: 40px;
+}
+
+.contact-section .form input,
+.contact-section .form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: none;
+    color: #666;
+    padding: .75em;
+    height: auto;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fafafa;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+.contact-section .form button {
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: #ffffff;
+    border: none;
+    border-color: #303030;
+    background-color: #303030;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 1rem;
+}
+
+.contact-section .form button:hover {
+    color: #303030;
+    border-color: #d3d3d3;
+    background-color: #d3d3d3;
+}
+
+/*--------------------------------------------------------------
+# Footer Widgets Section
+--------------------------------------------------------------*/
+
+.footer-widgets-section {
+    padding: 50px 0;
+    background-color: #1d3349;
+    text-align: center;
+}
+
+.footer-widgets-section .social-icon-wrapper {
+    margin-top: 40px;
+}
+
+.footer-widgets-section .social-icon {
+    text-align: center;
+    padding: .5em;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0);
+    line-height: 1;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.footer-widgets-section .social-icon i {
+    font-size: 20px;
+}
+
+.footer-widgets-section .social-icon:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-widgets-section .social-icon:hover {
+    background-color: #ffffff;
+}
+
+.footer-widgets-section .social-icon:hover i {
+    color: #3a3a3a;
+}
+
+footer.site-footer {
+    border-top: 1px solid #334c65;
+    padding: 40px 0;
+    background-color: #1d3349;
+    text-align: center;
+}
+
+.site-footer,
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
 }
